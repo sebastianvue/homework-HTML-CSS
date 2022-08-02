@@ -1,0 +1,34 @@
+#id-card {
+    background-color: lightgray;
+    padding: 15px;
+}
+
+div > h1, div > ul, div > p {
+    padding-left: 20px;
+}
+
+.container {
+    background-color: red;
+    border-radius: 5%;
+    border: 2px solid black;
+}
+
+.container p {
+    font-size: 20px;
+}
+
+#personal-info {
+    background-color: darkred;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#personal-info ul {
+    list-style: none;
+}
+
+#personal-info img {
+    width: min(30vw, 200px);
+    height: max(20vh, 200px);
+}
